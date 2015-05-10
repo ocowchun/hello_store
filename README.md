@@ -5,3 +5,18 @@
 每間店會有訂單
 每筆訂單會記錄銷售金額
 每間店會屬於一個分區
+
+
+##使用方式
+###建立資料庫
+```bash
+$ rake db:migrate
+$ rake db:seed
+```
+
+###進入console操作
+```bash
+$ rails dbconsole
+```
+
+MIT
